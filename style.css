@@ -1,0 +1,453 @@
+body {
+    background-color: rgb(252, 252, 252)!important;
+    height: 1000px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    line-height: 85px;
+    border-bottom: solid rgb(100, 100, 100) 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 15px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Bilbo', cursive;
+    font-size: 44px;
+    text-decoration: none;
+    border-bottom: solid 0.5px rgb(250, 224, 228);
+}
+
+.title-text {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.link-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: 0.4s ease-in-out;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 165px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-left: 25px;
+    padding-top: 8px;
+    line-height: 50px;
+    z-index: 1;
+    text-align: left;
+    font-size: 14px;
+  }
+
+.dropdown-item {
+    text-decoration: none!important;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    height: 40px;
+    width: 169px;
+    padding-left: 19px;
+    margin-left: -15px;
+    padding-right: 7px;
+  }
+
+.dropdown-item:hover {
+    background-color: rgba(250, 224, 228, 0.24);
+    transition: 0.4s ease-in-out;
+  }
+
+.dropdown-item:active {
+      border: none!important;
+      text-decoration: none;
+      background-color:rgb(92, 92, 92);
+
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+  }
+
+.last-item {
+    margin-bottom: 10px;
+}
+
+.info {
+    max-height: 500px;
+}
+
+.index__img {
+    filter: saturate(0.75)
+}
+
+.test {
+    height: 889px;
+    width: 1208px;
+    background-color: grey;
+}
+
+.jolie-img {
+    height: 850px;
+    width: 100%;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+}
+
+.title-link {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.info-box {
+    height: 150px;
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px; 
+    padding-top: 20px;
+    margin-top: 10px;   
+    color: black!important;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    font-size: 20px; 
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
+
+.section {
+    margin-top: 220px;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(53, 53, 53);
+}
+
+.footer-container {
+    height: 300px;
+    background-color: rgb(53, 53, 53);
+}
+
+.footer-block-1 {
+    height: 230px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8, 0);
+}
+
+.footer-block-2 {
+    height: 230px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8, 0);
+}
+
+.footer-block-3 {
+    height: 230px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8, 0);
+}
+
+.footer-block-4 {
+    height: 230px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8, 0);
+}
+
+.uk-card {
+    
+}
+
+button:focus {outline:0;}
+
+
+/* --------------- Services.html ---------------*/
+
+.cover-image {
+    height: 825px;
+    width: 100%;
+    background-image: url(./assets/Home-Slideshow/DSC_2914_watermark_Legacy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:-1;
+}
+
+.container {
+    /* position: relative;
+    top: 40%; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114, 113, 113, 0.45); 
+    /* margin-left: 390px;
+    margin-right: 390px; */
+}
+
+.cover-header { 
+    padding-top: 23%;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.cover-info {
+    text-align: center;  
+    width: 600px;
+    color: white;
+}
+
+.furniture-section {
+    height: 900px;
+}
+
+.left-section {
+    width: 50%;
+    height: 800px;
+    display: block;
+    float: left;
+    justify-content: center;
+    background-color: white;
+}
+
+.left-section-heading {
+    display: flex;
+    justify-content: left;
+    margin-left: 175px;
+    margin-top: 140px;
+    padding-bottom: 50px;
+    width: 65%;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: rgb(250, 224, 228) 1px solid;
+}
+
+.left-section-info {
+    display: block;
+    justify-content: left;
+    width: 65%;
+    margin-top: 65px;
+    margin-left: 175px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(138, 138, 138);
+}
+
+.right-section {
+    display: block;
+    width: 50%;
+    float: right;
+    height: 800px;
+    background-color: white;
+}
+
+.right-section-container {
+    display: block;
+}
+
+.right-section-images {
+
+    margin-left: 150px;
+    height: 350px;
+    width: 475px;
+    padding-top: 25px;
+    margin-top: 59px; 
+}
+
+/* --------------- About.html ---------------*/
+
+.about-container {
+    height: 1000px;
+}
+
+/* --------------- Paint.html ---------------*/
+
+.paint-grid{
+    margin-left: 100px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.grid {
+    justify-content: center;
+}
+
+.paint-img {
+    height: 150px;
+    width: 150px;
+}
+
+/* --------------- Workshop.html ---------------*/
+
+.workshop-info-header {
+    display: flex;
+    height: 700.33px;
+    width: 100%;
+}
+
+.workshop-image {
+    max-height: 700.33px;
+    width: 100%;
+    background-size: cover;
+}
+
+.workshop-img-header{
+    max-height: 700.33px;
+    width: 50%;
+    
+}
+
+.workshop-text-header{
+    background-color: rgb(236, 236, 236);
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    float: right;
+}
+
+.text-container {
+    width: 500px;
+    position: absolute;
+    top: 417px;
+}
+
+.text-1 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    justify-content: center;     
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.text-2 {
+    color: rgb(138, 138, 138);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text-3 {
+    color: black;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.block__gallery {
+}
+
+.block__gallery__header__container {
+    background-image: url(./assets/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    height: 450px;
+    background-position-y: -504px;
+}
+
+.block__gallery__background {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.568);
+    height: 80px;
+    margin-right: 620px;
+    margin-left: 620px;
+    position: relative;
+    top: 179px;
+}
+
+.block__gallery__header {
+    color: black;
+    text-align: center;
+    line-height: 80px;
+}
+
+.block__gallery__wrapper {
+    margin-top: 50px;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+.gallery__image {
+    height: 250px;
+    width: 375px;
+}
